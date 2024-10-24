@@ -1,0 +1,91 @@
+SET-1
+section 1
+
+1. Write a query to create a LOG table having following fields 
+	a. _id int auto increment
+	b. message varchar(40) not null,
+	c. message_date date must be unique,
+2. Display the employee name who is getting the 2nd highest salary. 
+3. Write a query to identify those employees whose salaries exceed 3000 after receiving a 25% salary increase. Return complete information about the employees.
+4. Write a query to display employee records whose ename starts with letter 'S' and its length is more than 6 char.
+5. Write a query to fetch ALTERNATE records from an EMP table. (only ODD Records).
+6. List the department name from DEPT table for those departments that do not contain the employee working as job 'MANAGER',
+7. Write a query to find the names of the employees whose length is six character. Return employee name.
+8. Write a query to create non-clustered index on job column.
+9. Write a query to create a new identical table (named x) as like EMP table with all records.
+10. Write a query to display phone number in the following format “******8765” for all employees.
+
+section 2
+
+Write a program in PL/SQL to create a cursor displays the employee name, job, hiredate and salary of each employee in the EMPLOYEES table whose salary is less than that specified by a passed-in parameter value.
+
+-------------------------------------------------------------------------------------------------------
+
+SET-2
+section 1
+
+1.Write a query to create a login table having following fields 
+	a. _id int auto increment
+	b. userName(40) not null with unique,
+	c. password varchar(20) must be invisible,
+	d. confirmPassword varchar(20) check that the value of confirmPassword and password must be same.
+2. Write a query to display the employees who have joined in the month of July. Return complete information about the employees.
+3. Write a query to display the 3rd highest salary from EMP table
+4. Write a query to Insert multiple records in DEPT table.
+5. Creates a view that selects every employee in the "EMP" table with a salary higher than the average  salary for every jobs.
+6. Write a to query to display those employees who joined before 1991. Return complete information about the employees.
+7. Write a to print the 7th record from the EMP table.
+8. Write a to query to calculate the average salary of employees who work is accounting department. Return average salary.
+9. Write a qeury to display job name from EMP table where more than 5 employees are working. 
+10. Write a query to list the employees’ name and increase their salary by 15%, and print the increased salary with preceding Dollars sign.
+
+section 2
+
+Write empSearch Stored Procedure. Pass department number as parameter, if the entered department number is present in the EMP table then display his Employee details (Using cursor). If the department number is not present then display the message “Student not found”.   
+
+-------------------------------------------------------------------------------------------------------
+
+SET-3
+section 1
+
+1. Write a query to display those employees who do not belong to the department number 30. Return complete information about the employees.
+2. Write a query to display the difference between the salary of ‘SMITH’ and ‘JONES'.
+3.Create a query to display the ename, hiredate, and salary for all employees who have the same salary 	and commission as 'WARD'
+4. Write a query to display those employees whose salaries are less than 3500. Return complete information about the employees.
+5. Create a query to display the employees who earn a salary that is higher than the salary of 'BLAKE's salary. Sort the results on salary from highest to lowest.
+6. Write a query to display those employees who joined the company in 1983. Return complete information about the employees.
+7. Write a query to find all employees who earns maximum salary for each job type.
+8. Write a query to display the employees whose salaries are odd. Return complete information about the employees.
+9. Write a query to display all employees who are hired in the year 1983.
+10. Write a query to count total employees who are where hired in the month of 'July'.
+
+section 2
+Write Stored Function named FN1() to accept employee name. If the employee is not present in the EMP table, print “Employee Not Found” message using global variable. If the employee is present then print his name in the following format.
+Example INPUT : FN1(‘GITA’)
+		OUTPUT : G-I-T-A 
+
+-------------------------------------------------------------------------------------------------------
+
+SET-4
+section 1
+
+1. write a query to display employees whose salaries contain only three digits. Return complete information about the employees.
+2. Write a query to add newColumn by the name location varchar(20) in DEPT table.
+3. Write a query to display all employees who earn more than the average salary.
+4. Write a query to select the nth highest salary from EMP table.
+5. Write a query to display the employees and their managers 
+6. Write a query to display the employees who are working for the department ID 10 or 30. Return complete information about the employees.
+7. Write a query to assigns a unique sequential number to each row in the result set of a query. 
+8. Write a query to display those employees who joined in the 2nd quartery. Return complete information about the employees.
+9. Write a query to display all employees with an annual salary between 29400 and 50000
+10. Write a query to drop location column from DEPT table.
+
+section 2
+
+Write a Stored Trigger to add new record in the EMP table with following conditions. 
+a. If the entered employee name is passed in lower case convert them in capital cass and store.
+b. If Hiredate > current_date the recode must not be inserted in the EMP table. 
+
+-------------------------------------------------------------------------------------------------------
+
+
